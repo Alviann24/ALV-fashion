@@ -3,9 +3,10 @@
 Web marketplace fashion.
 
 ## Tech Stack
-- Frontend: React
-- Backend: Express
-- Database: MySQL
+- Backend : Laravel v12 (API)
+- Frontend: Next.js
+- Auth    : Laravel Sanctum
+- DB      : MySQL
 
 ## Fitur
 - Login & Register
@@ -14,5 +15,10 @@ Web marketplace fashion.
 - Admin dashboard
 
 ## Cara Menjalankan
-1. Jalankan backend
-2. Jalankan frontend
+1. Jalankan backend : php artisan ser
+2. Jalankan frontend : npm run dev
+
+## Branch Rules
+- main    : stable / production
+- be-dev  : backend development
+- fe-dev  : frontend development
